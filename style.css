@@ -291,6 +291,7 @@ footer{background:var(--ink); color:var(--blush); padding:70px 0 30px; overflow-
 .social-badge.wa{background:#25D366;}
 .social-badge.fb{background:#1877F2;}
 .social-badge.mail{background:linear-gradient(135deg,var(--pink),var(--coral));}
+.social-badge.tiktok{background:#010101;}
 .social-badge.ig{background:linear-gradient(135deg,#f9c94a 0%,#f0842e 22%,#e4405f 48%,#c6266f 68%,#6b2fc9 100%);}
 .placeholder-link{outline:2px dashed rgba(255,255,255,.5); outline-offset:3px;}
 
