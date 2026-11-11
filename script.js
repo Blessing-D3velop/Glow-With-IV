@@ -80,7 +80,7 @@ try {
       lightboxImg.classList.add('fading');
       window.setTimeout(() => {
         lightboxImg.src = images[currentIndex];
-        lightboxImg.alt = `Glow With IV gallery photo ${currentIndex + 1}`;
+        lightboxImg.alt = `Glow With IV beauty and aesthetic clinic Potchefstroom – gallery photo ${currentIndex + 1}`;
         lightboxImg.classList.remove('fading');
       }, 150);
     }
@@ -117,7 +117,7 @@ try {
     images.forEach((src, i) => {
       const item = document.createElement('div');
       item.className = 'g-item';
-      item.innerHTML = `<img src="${src}" alt="Glow With IV gallery photo ${i + 1}" loading="lazy">`;
+      item.innerHTML = `<img src="${src}" alt="Glow With IV beauty and aesthetic clinic Potchefstroom – gallery photo ${i + 1}" loading="lazy" decoding="async">`;
       item.addEventListener('click', () => openLightbox(i));
       galleryGrid.appendChild(item);
     });
